@@ -14,6 +14,7 @@
 		224DD04625CEBB230028F9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224DD04525CEBB230028F9B9 /* Assets.xcassets */; };
 		224DD04925CEBB230028F9B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224DD04725CEBB230028F9B9 /* LaunchScreen.storyboard */; };
 		224DD05225CEBBB20028F9B9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DD05125CEBBB20028F9B9 /* ResultViewController.swift */; };
+		22E82085260653AB0049502A /* TipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E82084260653AB0049502A /* TipButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		224DD04825CEBB230028F9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		224DD04A25CEBB230028F9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224DD05125CEBBB20028F9B9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		22E82084260653AB0049502A /* TipButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				224DD03E25CEBB220028F9B9 /* SceneDelegate.swift */,
 				224DD04025CEBB220028F9B9 /* CalculatorViewController.swift */,
 				224DD05125CEBBB20028F9B9 /* ResultViewController.swift */,
+				22E82084260653AB0049502A /* TipButton.swift */,
 				224DD04225CEBB220028F9B9 /* Main.storyboard */,
 				224DD04525CEBB230028F9B9 /* Assets.xcassets */,
 				224DD04725CEBB230028F9B9 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			files = (
 				224DD04125CEBB220028F9B9 /* CalculatorViewController.swift in Sources */,
 				224DD03D25CEBB220028F9B9 /* AppDelegate.swift in Sources */,
+				22E82085260653AB0049502A /* TipButton.swift in Sources */,
 				224DD03F25CEBB220028F9B9 /* SceneDelegate.swift in Sources */,
 				224DD05225CEBBB20028F9B9 /* ResultViewController.swift in Sources */,
 			);

@@ -120,14 +120,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Tur-98-RRZ">
                                         <rect key="frame" x="159" y="5.6666666666666856" width="215" height="47"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Jx-8h-X6J">
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Jx-8h-X6J" customClass="TipButton" customModule="TipCalculator" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="65" height="47"/>
                                                 <color key="backgroundColor" name="brandBlueColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="47" id="arg-C9-lIB"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="26"/>
-                                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="10">
                                                     <color key="titleColor" name="logoTextColor"/>
                                                 </state>
@@ -138,14 +138,14 @@
                                                     <action selector="tipPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qy7-Ax-RSn"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="II6-Wx-qh7">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="II6-Wx-qh7" customClass="TipButton" customModule="TipCalculator" customModuleProvider="target">
                                                 <rect key="frame" x="75" y="0.0" width="65" height="47"/>
                                                 <color key="backgroundColor" name="brandBlueColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="47" id="b70-vq-swp"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="26"/>
-                                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="15">
                                                     <color key="titleColor" name="logoTextColor"/>
                                                 </state>
@@ -159,7 +159,7 @@
                                                     <action selector="tipPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aXG-TD-9bv"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="248" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9F-7z-Zo4">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="248" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9F-7z-Zo4" customClass="TipButton" customModule="TipCalculator" customModuleProvider="target">
                                                 <rect key="frame" x="150" y="0.0" width="65" height="47"/>
                                                 <color key="backgroundColor" name="brandBlueColor"/>
                                                 <constraints>
@@ -167,7 +167,7 @@
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="9P9-c5-BG9"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="26"/>
-                                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="20">
                                                     <color key="titleColor" name="logoTextColor"/>
                                                 </state>
