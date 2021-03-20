@@ -1,4 +1,4 @@
-<img src="https://github.com/robertpinl/TipCalculator/blob/main/ReadmeAssets/TipCalculatorLogo.png" width="" height="40"/>
+<img src="https://github.com/robertpinl/TipCalculator/blob/main/ReadmeAssets/TipCalculatorLogo.png" width="" height="35"/>
 
 Tip Calculator is simple iOS app. User can enter a bill amount and calculate tip percentage.
 * Safe textfield input - limited use of decimal point and only two decimal places.
