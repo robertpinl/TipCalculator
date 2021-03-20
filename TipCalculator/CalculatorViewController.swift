@@ -94,21 +94,28 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
 
-        if (amountTextField.text?.contains("."))! && string == "." {
-            return false
+        guard let oldText = textField.text, let r = Range(range, in: oldText) else {
+            return true
         }
-
-        if (amountTextField.text?.contains("."))! {
-            let limitDecimalPlace = 2
-            let decimalPlace = amountTextField.text?.components(separatedBy: ".").last
-            if (decimalPlace?.count)! < limitDecimalPlace {
-                return true
-            }
-            else {
-                return false
-            }
+        if string == "," {
+                   textField.text = textField.text! + "."
+                   return false
         }
-        return true
+        
+        let newText = oldText.replacingCharacters(in: r, with: string)
+        let isNumeric = newText.isEmpty || (Double(newText) != nil)
+        let numberOfDots = newText.components(separatedBy: ".").count - 1
+        
+        let numberOfDecimalDigits: Int
+        if let dotIndex = newText.firstIndex(of: ".") {
+            numberOfDecimalDigits = newText.distance(from: dotIndex, to: newText.endIndex) - 1
+        } else {
+            numberOfDecimalDigits = 0
+        }
+        let substringToReplace = oldText[r]
+        let numberOfCharacters = oldText.count - substringToReplace.count + string.count
+        
+        return isNumeric && numberOfDots <= 1 && numberOfDecimalDigits <= 2 && numberOfCharacters <= 8
     }
 }
 
